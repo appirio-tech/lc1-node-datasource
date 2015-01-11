@@ -6,20 +6,30 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://gitlab.com/spanhawk/serenity-datasource.git"
   },
   "homepage": "https://github.com/riteshsangwan",
   "keywords": [
     "serenity"
   ],
   "dependencies": {
+    "async": "^0.9.0",
+    "db-migrate": "0.7.1",
     "fs-extra": "^0.14.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-db-migrate": "0.2.0",
+    "grunt-env": "^0.4.1",
+    "load-grunt-tasks": "^0.4.0",
     "lodash": "^2.4.1",
-    "path": "^0.11.14",
     "pg": "^4.1.1",
     "sequelize": "1.7.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-mocha-test": "^0.10.2",
+    "mocha": "1.21.4",
+    "should": "^4.4.4"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },

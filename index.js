@@ -1,8 +1,9 @@
+'use strict';
 /**
  * Main script for serenity-datasource module.
  *
  * @author      spanhawk
- * @version     1.0
+ * @version     0.0.1
  *
  * This module build on top of sequelize ORM.
  * It reads all the sequelize schema definations from a directory and initialize each schema,
