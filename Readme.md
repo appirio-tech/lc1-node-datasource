@@ -9,7 +9,7 @@ It reads all the sequelize schema definations from a directory and initialize ea
 Install via npm and git
 
 ```
-npm install git+https://github.com/riteshsangwan/serenity-storage.git
+npm install git+https://github.com/riteshsangwan/serenity-datasource.git
 ```
 
 ## How to use?
