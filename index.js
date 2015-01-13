@@ -21,7 +21,7 @@
  * 
  * NOTE: Path is case sensitive and must not end with slash
  * 
- * Errors from the init method has to be handled by the applicaiton
+ * Errors during instantiation has to be handled by the applicaiton
  *
  * Sample configuration object
  *
