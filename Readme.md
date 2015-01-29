@@ -9,14 +9,14 @@ It reads all the sequelize schema definations from a directory and initialize ea
 Install via npm and git
 
 ```
-npm install git+https://github.com/riteshsangwan/serenity-datasource.git
+npm install git+https://github.com/appirio-tech/lc1-node-datasource.git
 ```
 
 ## How to use?
 
-Include the serenity-datasource into your application using ```require```
+Include the lc1-node-datasource into your application using ```require```
 ```
-var serenityDatasource = require('serenity-datasource');
+var serenityDatasource = require('lc1-node-datasource');
 ```
 
 Instantiate datasource using new operator passing in the congifuration object.
@@ -57,7 +57,7 @@ var config = {
     modelsDirectory: './api/models',
     pgURL: 'postgres://postgres@localhost:5432/challengeapi'
 };
-var serenityDatasource = require('serenity-datasource');
+var serenityDatasource = require('lc1-node-datasource');
 var datasource = new serenityDatasource(config);
 var Challenge = datasource.Challenge;
 // use the Challenge model
