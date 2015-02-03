@@ -9,14 +9,14 @@ It reads all the sequelize schema definations from a directory and initialize ea
 Install via npm and git
 
 ```
-npm install git+https://github.com/appirio-tech/lc1-node-datasource.git
+npm install serenity-node-datasource
 ```
 
 ## How to use?
 
 Include the lc1-node-datasource into your application using ```require```
 ```
-var serenityDatasource = require('lc1-node-datasource');
+var serenityDatasource = require('serenity-node-datasource');
 ```
 
 Instantiate datasource using new operator passing in the congifuration object.
@@ -34,7 +34,7 @@ Configuration object should define datasource configuration inner object with a 
 - modelsDirectory: This directory path has to be relative to current ```process.pwd()``` path which is currently running. Generally application would be run from the application root directory so in that case this path would be relative to application root.
 
     NOTE: Path is case sensitive and must not end with slash
-    
+
 - pgURL: postgresql connection string
 - dbOptions (optional DB options as supported by sequelize)
   See [sequelize](http://sequelize.readthedocs.org/en/latest) docs for more inof
@@ -57,7 +57,7 @@ var config = {
     modelsDirectory: './api/models',
     pgURL: 'postgres://postgres@localhost:5432/challengeapi'
 };
-var serenityDatasource = require('lc1-node-datasource');
+var serenityDatasource = require('serenity-node-datasource');
 var datasource = new serenityDatasource(config);
 var Challenge = datasource.Challenge;
 // use the Challenge model
