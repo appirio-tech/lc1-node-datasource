@@ -24,7 +24,7 @@
     "lodash": "^2.4.1",
     "pg": "^4.1.1",
     "sequelize": "1.7.10",
-    "common-errors": "^0.4.18"
+    "common-errors": "^0.5.7"
   },
   "devDependencies": {
     "grunt-mocha-test": "^0.10.2",
