@@ -20,7 +20,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-db-migrate": "0.2.0",
     "grunt-env": "^0.4.1",
-    "load-grunt-tasks": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
     "lodash": "^2.4.1",
     "pg": "^4.1.1",
     "sequelize": "1.7.10",
