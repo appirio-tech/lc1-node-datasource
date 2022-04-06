@@ -14,16 +14,16 @@
   ],
   "dependencies": {
     "async": "^0.9.0",
-    "db-migrate": "0.7.1",
+    "db-migrate": "0.10.0",
     "fs-extra": "^0.14.0",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
-    "grunt-db-migrate": "0.2.0",
+    "grunt-db-migrate": "1.0.0",
     "grunt-env": "^0.4.1",
     "load-grunt-tasks": "^0.4.0",
     "lodash": "^2.4.1",
     "pg": "^4.1.1",
-    "sequelize": "1.7.10",
+    "sequelize": "2.0.0",
     "common-errors": "^0.4.18"
   },
   "devDependencies": {
